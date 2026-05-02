@@ -8,7 +8,7 @@ A Cloudflare Workers script that proxies Docker Hub — includes a search UI, im
 - 🐳 **Pull proxy** — `docker pull` works seamlessly through the Worker
 - 🌐 **Multi-registry** — supports Docker Hub, ghcr.io, gcr.io, quay.io, registry.k8s.io, and more via subdomain routing
 - ⚡ **No credentials required** — fully anonymous, no config needed
-- 🚀 **GFW-friendly** — no redirects to hub.docker.com
+- 🚀 **No redirects** — all requests are proxied server-side, no client-side redirects
 
 ## Deploy in 3 steps
 
