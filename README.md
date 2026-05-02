@@ -1,6 +1,6 @@
 # dockerhub-cf-workers
 
-A Cloudflare Workers script that proxies Docker Hub for users in China — includes a search UI, image pull proxy, and support for multiple registries.
+A Cloudflare Workers script that proxies Docker Hub — includes a search UI, image pull proxy, and support for multiple registries.
 
 ## Features
 
@@ -8,7 +8,7 @@ A Cloudflare Workers script that proxies Docker Hub for users in China — inclu
 - 🐳 **Pull proxy** — `docker pull` works seamlessly through the Worker
 - 🌐 **Multi-registry** — supports Docker Hub, ghcr.io, gcr.io, quay.io, registry.k8s.io, and more via subdomain routing
 - ⚡ **No credentials required** — fully anonymous, no config needed
-- 🇨🇳 **China-friendly** — no redirects to hub.docker.com (blocked by GFW)
+- 🚀 **GFW-friendly** — no redirects to hub.docker.com
 
 ## Deploy in 3 steps
 

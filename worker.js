@@ -190,7 +190,7 @@ function searchPage(q, data, workersUrl, page = 1) {
   const pager = hasResults
     ? `<div class="pager">${prevPage}<span class="page-info">Page ${page.toLocaleString()} of ${numPages.toLocaleString()}</span>${nextPage}</div>` : '';
 
-  const tagline = isHome ? `<p class="tagline">Fast, anonymous Docker image proxy for China 🇨🇳</p>` : '';
+  const tagline = isHome ? `<p class="tagline">Fast, anonymous Docker image proxy</p>` : '';
   const summary = hasResults
     ? `<p class="summary"><strong>${total.toLocaleString()}</strong> results for "<strong>${escQ}</strong>"</p>` : '';
   const emptyMsg = q && !hasResults
